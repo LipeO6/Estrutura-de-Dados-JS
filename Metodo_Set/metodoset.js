@@ -29,4 +29,4 @@ numeros.forEach((numero) => {
 3
 //conversão de array set para array
 let arrayDeNumeros = [numeros];
-console.log(arrayDeNumeros); //
+console.log(arrayDeNumeros); // mostrará [ Set(4) { 10, 15, 34, 26 } ]
