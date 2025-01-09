@@ -1,6 +1,6 @@
-# Métodos em Javascript
+# Estrutura de dados em Javascript
 
-## Mostrarei aqui os métodos de Javascript que venho estudando:
+## Mostrarei aqui as estruturas de dados de Javascript que venho estudando:
 
 * Set
 * Objeto
