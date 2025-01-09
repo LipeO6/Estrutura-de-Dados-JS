@@ -5,4 +5,4 @@
 * Set
 * Objeto
 * Array
-
+* Map
