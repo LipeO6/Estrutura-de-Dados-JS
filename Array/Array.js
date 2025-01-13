@@ -9,5 +9,8 @@ frutas.push('goiaba'); //add no final
 frutas.unshift('mamão'); // add no começo
 console.log(frutas);
 
-2, //Remover elementos
+2. //Remover elementos
+const ultimaFruta = frutas.pop();// remove a ultima
+const primeiraFruta = frutas.shift(); //remove a primeira
+console.log(`${ultimaFruta} - ${primeiraFruta} - ${frutas}`);
 
