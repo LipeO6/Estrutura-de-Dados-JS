@@ -22,4 +22,15 @@ const frutasMaiuscula = frutas.map(fruta => fruta.toUpperCase());
 console.log(frutasMaiuscula); // todas as frutas estarão em capslock
 
 4. // Para buscar elementos
+console.log(frutas.indexOf('banana')); // - p/ buscar a posição
+console.log(frutas.includes('banana')); // para verificar
+
+5. // Filtrar e Reduzir
+//filtrar
+const frutasComM = frutas.filter((fruta) => fruta.startsWith('m'));
+console.log(frutasComM); // maçã
+//reduzir
+const totalLetras = frutas.reduce((total, fruta) => total + fruta.length, 0);
+console.log(totalLetras); // 10 (o 0 ao final, significa que é o valorinicial para acumular)
+
 
