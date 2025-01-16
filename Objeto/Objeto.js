@@ -13,7 +13,7 @@ console.log(pessoa.cargo); //Saída: Diretor
 let carro = new Object();
 carro.marca = 'Toyota';
 carro.modelo = 'Corolla';
-console.log(carro); // { marca: 'Toyota', modelo: 'Corolla' }
+console.log(carro); // { marca: 'Toyota', modelo: 'Corolla' } 
 
 3. // Object.create
 const veiculo = {tipo: 'genérico'};

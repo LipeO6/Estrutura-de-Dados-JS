@@ -20,7 +20,7 @@ frutas.forEach((fruta) => console.log(fruta)); // aparecerá a sequência das fr
 //map - usado para extrair uma parte do array e manipula-lo.
 const frutasMaiuscula = frutas.map(fruta => fruta.toUpperCase());
 console.log(frutasMaiuscula); // todas as frutas estarão em capslock
-
+ 
 4. // Para buscar elementos
 console.log(frutas.indexOf('banana')); // - p/ buscar a posição
 console.log(frutas.includes('banana')); // para verificar

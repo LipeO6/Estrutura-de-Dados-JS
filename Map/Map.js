@@ -47,7 +47,7 @@ for (const valor of mapa.values()) {
 }
 6.4 // forEach()
 mapa.set('estadio', 'são januario'); // para melhorar o forEach()
-mapa.set('campeonato', 'brasileiro'); // para melhorar o forEach()
+mapa.set('campeonato', 'brasileiro'); // para melhorar o forEach() 
 mapa.forEach((valor, chave) => {
     console.log(`${chave}: ${valor}`);
 })
